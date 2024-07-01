@@ -19,49 +19,61 @@
 </head>
 <body>
 	
-	<nav id="nav-menu">
-		<div class="container">
-			<div class="d-flex flex-row align-items-center justify-content-between ">
-				<div class="logo d-flex flex-row gap-4 align-items-center col-1	 "> 
-					<img src="pics\logo 1.png" class="img-responsive" alt="image">
-				</div>	
-				<div class="d-flex flex-row  justify-content-between align-items-center col-3">
-					<a href="#" class="home-button">Home</a>
-            		<a href="#" class="button">Pricing</a>
-            		<a href="#" class="button">About Us</a>
-				</div>
-				<button type="button" class="btn btn-create">Create account</button>
-			</div>
-		</div>
+	<nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <img src="pics\logo 1.png" class="img-responsive p" alt="image">
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-		
-	</nav>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-create ms-auto">Create account</button>
+             </div>
+        </div>
+    </nav>
+	
 
-	<section id="home">
-		
-		<div class="container vertical-align">
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<h2>Let’s take your poultry business to a profitable level</h2>
-					<p>BIMS management system unlocks the profitably of poultry farmer’s business and helps them grow their broilers to full chicken in short period</p>
-					<button type="button" class="btn btn-started">Get started</button>
-				</div>
-				<div class="images col-md-6 col-sm-6 col-xs-12 ">
-					<img src="pics/Ellipse 1.png">
-					<div class="shift">
-						<img src="pics/Ellipse 2.png">
-					</div>
-				</div>
-			</div>
-		</div>
+	<!-- home -->
+	 <section id="home" class="text-center text-lg-start p-5">
+        <div class="container">
+            <div class="d-lg-flex">
+                <div>
+                    <h1 class="mb-0">Let’s take your</h1>
+                    <h1 class="my-0">poultry business to</h1>
+                    <h1 class="my-0">a profitable level</h1>
+                    <p class="mt-4 mb-0">BIMS management system unlocks the profitably of poultry</p>
+                    <p class="my-0">farmer’s business and helps them grow their broilers to full</p> 
+                    <p class="">chicken in short period</p>
+                    <button class="btn btn-started">Get started</button>
+                </div>
+                <div class="frames">
+                    <img class="img-fluid d-none d-lg-block" src="pics/Ellipse 1.png" alt="" />
+                    <img class="img-fluid d-none d-lg-block img2" src="pics/Ellipse 2.png" alt="" />
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>   
+        
 
-	</section>
 
 	<section id="statss">
 		
 		<div class="container">
-			<div class="stats  col-12 d-flex flex-row justify-content-evenly">
+			<div class="stats  col-12 d-flex flex-row justify-content-evenly d-none d-md-flex">
 				<div>
 					<h2>2kg</h2>
 					<p>Broiler grown</p>	
@@ -86,25 +98,23 @@
 
 	</section>
 
-	<section id="ad">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-row">
-					<img src="pics/Rectangle 2.png">
+	<section id="ad" class="text-center text-lg-start p-5">
+        <div class="container">
+            <div class="d-lg-flex">
+            	<div class="d-none d-lg-flex">
+            		<img src="pics/Rectangle 2.png">
 					<div class="chick">
 						<img src="pics/Rectangle 3.png">
 					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<h2>Boost the growth of your broilers</h2>
-					<p>Grow your broilers quickly into full chicken to make fast profit using our platform.</p>
-					<button type="button" class="btn btn-download">Download</button>
-				</div>
-			</div>
-		</div>
-		
-	</section>
+            	</div>       
+                <div>
+                    <h2 class="mb-0">Boost the growth of your broilers</h1>
+                    <p class="mt-4 mb-0">Grow your broilers quickly into full chicken to make fast profit using our platform.</p>
+                    <button class="btn btn-started">Download</button>
+                </div>                   
+            </div>            
+        </div>
+    </section>   
 
 
 	<section id="trustee">
@@ -143,10 +153,10 @@
 	<section id="video">
 
 		<div class="container">
-			<div class="text-center">
+			<div class="text-center d-none d-xl-block">
 				<h2>Video Presentation</h2>
 			</div>
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="col-md-6 col-sm-6 col-xs-12 d-none d-xl-block">
 				<img src="pics/Frame 25.png">
 			</div>
 		</div>
@@ -207,18 +217,16 @@
 	</section>
 
 
-
-
-	<section id="get-started">
+	<section id="get-started" class="text-center text-xl-start">
 		
 		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="d-lg-flex">
+				<div>
 					<h2>Get started with us today</h2>
 					<p>BIMS management system unlocks the profitably of poultry farmer’s business and helps them grow their broilers to full chicken in short period</p>
 					<button type="button" class="btn btn-started">Get started</button>
 				</div>
-				<div class="frame col-md-6 col-sm-6 col-xs-12"> 
+				<div class="frame d-none d-xl-flex"> 
 					<img src="pics/Rectangle 9.png">
 					<div class="dash">
 						<img src="pics/Rectangle 7.png">
@@ -239,7 +247,7 @@
 					<h2>BIMSPRO</h2>
 					<p>+2348170222718</p>
 				</div>
-				<div class="d-flex flex-row justify-content-between info">
+				<div class="d-lg-flex flex-row justify-content-between info">
 					<div class="inside">
 						<h3>Home</h3>
 						<p><a href="#">Get started</a></p>
