@@ -16,7 +16,16 @@
     font-style: normal;
 }*/
 
+*{
+	/*overflow-x: hidden;*/
+}
 
+section{
+	/*margin: 0 100px;*/
+}
+#home{
+	/*margin: auto;*/
+}
 /*navbar*/
 .navbar{
 	height: 81px;
@@ -351,8 +360,8 @@
 	background-color: rgba(18, 18, 18, 1);
 	box-sizing: border-box;
 	color: rgba(248, 255, 250, 1);
-	height: 570px;
-	padding-top: 50px;
+	/*height: 570px;*/
+	padding: 50px 0 360px 0;
 }
 
 #footer	h2{
